@@ -1,0 +1,106 @@
+ history
+    1  docker port static-site
+    2  docker
+    3  docker --version
+    4  docker images
+    5  docker run hello-world
+    6  docker images
+    7  docker pull busybox
+    8  docker run busybox ll
+    9  docker run busybox ls -l
+   10  docker run busybox crontab
+   11  docker run busybox crontab -l
+   12  docker run busybox crontab pwd
+   13  docker run busybox pwd
+   14  ls
+   15  docker run busybox ls
+   16  docker run busybox echo "hello from busybox"
+   17  docker ps
+   18  docker ps -a
+   19  docker run -it busybox sh
+   20  winpty docker run -it busybox sh
+   21  docker ps -a
+   22  dcoker --help
+   23  docker --help
+   24  docker ps -a
+   25  docker rm 7ac26f54f6f8
+   26  docker ps -a
+   27  docker rm
+   28  docker rm --help
+   29  docker rm -v
+   30  docker rm --v
+   31  docker rm -all
+   32  docker ps -a
+   33  docker rm $(docker rm -a -q -f status=exited)
+   34  docker rm $(docker -a -q -f status=exited)
+   35  docker -p -q -f status=exited
+   36  docker ps -a -q -f status=exited
+   37  docker ps -a
+   38  docker ps -a -f command=pwd
+   39  docker ps -a -f command="pwd"
+   40  docker ps -a -f --help
+   41  docker ps -a -f
+   42  docker ps --help
+   43  docker ps -n
+   44  docker ps -a -n
+   45  docker ps -n 1
+   46  docker ps -s
+   47  docker ps -a -s
+   48  docker image
+   49  docker images
+   50  docker rmi
+   51  docker rmi 6d5fcfe5ff17
+   52  docker ps -a
+   53  docker rm $(docker ps -a -q -f status=exited)
+   54  docker ps -a
+   55  docker container prune
+   56  docker ps -a
+   57  docker images
+   58  docker rmi 6d5fcfe5ff17
+   59  docker images
+   60  docker run --rm prakhar1989/static-site
+   61  y
+   62   docker run -d -P --name static-site prakhar1989/static-site
+   63  docker port static-site
+   64  docker ps -a
+   65  docker container prune
+   66  history
+   67  clear
+   68   docker run -d -P --name kutta prakhar1989/static-site
+   69  docker port kutta
+   70  docker port --help
+   71  docker run -p 9999:80 prakhar1989/static-site
+   72  y
+   73  docker stop kutta
+   74  docker pull ubuntu:18.04
+   75  docker images
+   76  docker run ubuntu
+   77  docker run ubuntu:18.04
+   78  ls
+   79  docker run ubuntu:18.04 ls
+   80  history
+   81  docker run ubuntu:18.04 sh
+   82  docker run -it busybox sh
+   83  docker run -it ubuntu sh
+   84  docker run -it ubuntu:18.04 sh
+   85  winpty docker run -it ubuntu:18.04
+   86  history | grep -it
+   87  grep -it
+   88  grep --help
+   89  docker search
+   90  docker search python
+   91  docker ps -a
+   92  git clone https://github.com/prakhar1989/docker-curriculum.git
+   93  cd docker-curriculum/flask-app
+   94  docker build
+   95  https://hub.docker.com/?utm
+   96  docker build -t sam253narula/catnip .
+   97  docker run -p 8888:5000 yourusername/catnip
+   98  docker run -p 8888:5000 sam253narula/catnip
+   99  docker login
+  100  docker push
+  101  docker images
+  102  docker push sam253narula/catnip
+  103  docker search drax777
+  104  history
+  105  history
