@@ -104,3 +104,34 @@
   103  docker search drax777
   104  history
   105  history
+  106  git init
+  107  git remote add origin https://github.com/sam253narula/Docker-Commands.git
+  108  git add .
+  109  git commit -m "first commit"
+  110  git push -u origin master
+  111  docker container prune
+  112  docker imgages
+  113  docker images
+  114  dcoker container ls
+  115  docker container ls
+  116  docker container --help
+  117  docker stop --help
+  118  docker stop 8044711295f4
+  119  docker stop c2e5c949bb7c
+  120  docker run busybox echo "need port 9999 for my spring boot app"
+  121  docker build -f Dockerfile -t docker-spring-boot
+  122  docker build -f Dockerfile -t docker-spring-boot .
+  123  docker images
+  124  docker run -p 9999:9999 docker-spring-boot
+  125  docker container ls
+  126  docker stop 20ba1e3b8c04
+  127  docker container ls
+  128  docker build -f Dockerfile -t docker-spring-boot .
+  129  docker images
+  130  docker rmi a64a3360f3db
+  131  docker container ls
+  132  docker build -f Dockerfile -t docker-spring-boot .
+  133  docker images
+  134  docker run -p 9999:9999 docker-spring-boot
+  135  y
+  136  history
