@@ -135,3 +135,31 @@
   134  docker run -p 9999:9999 docker-spring-boot
   135  y
   136  history
+  137  git status
+  138  git add .
+  139  git commit -m "spring boot docker image run in container"
+  140  git push
+  141  git status
+  142  git add .
+  143  git commit -m "rename file"
+  144  git status
+  145  git push
+  146  git init
+  147  git remote add origin https://github.com/sam253narula/spring-boot-docker.git
+  148  git status
+  149  git add .
+  150  git status
+  151  git commit -m "first commit"
+  152  git push -u origin master
+  153  docker images
+  154  docker images
+  155  docker build -f Dockerfile -t sam253narula/docker-spring-boot .
+  156  docker build -f Dockerfile -t sam253narula/docker-spring-boot .
+  157  dcoker images
+  158  docker images
+  159  docker images
+  160  docker push sam253narula/docker-spring-boot
+  161  y
+  162  docker push sam253narula/docker-spring-boot
+  163  docker push sam253narula/docker-spring-boot
+  164  history
